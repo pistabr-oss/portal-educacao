@@ -1,0 +1,35 @@
+PORTAL DA EDUCAÇÃO — PACOTE PWA PARA ANDROID
+São José do Rio Claro – MT
+
+IMPORTANTE:
+O Blogger não permite hospedar diretamente um manifest.json e um service-worker.js na raiz do blog.
+Por isso, estes arquivos precisam ser publicados em uma hospedagem estática HTTPS (por exemplo, GitHub Pages).
+O aplicativo funciona como uma tela inicial própria e direciona aos conteúdos do Blogger.
+
+ARQUIVOS:
+- index.html: tela inicial do app
+- manifest.json: nome, cores, modo de exibição e ícones
+- service-worker.js: cache básico da tela inicial
+- icons/: ícones usados pelo aplicativo
+
+COMO PUBLICAR:
+1. Extraia este ZIP no computador.
+2. Publique o conteúdo da pasta portal_educacao_pwa em uma hospedagem estática HTTPS que permita servir os arquivos na mesma origem.
+3. Confirme que a página inicial abre por HTTPS e que /manifest.json e /service-worker.js abrem sem erro.
+4. No Android, abra o endereço publicado no Chrome.
+5. Abra o menu ⋮ do Chrome e escolha "Instalar app" ou "Adicionar à tela inicial" (o texto varia conforme o navegador).
+6. Teste todos os seis botões.
+
+ATENÇÃO SOBRE O LOGOTIPO:
+Se os ícones reutilizados do pacote anterior não forem o logotipo oficial correto, substitua os arquivos em icons/ pelos ícones oficiais e atualize os caminhos em manifest.json e index.html.
+Não publique informações pessoais ou dados restritos no app.
+
+LINKS CONFIGURADOS:
+Notícias: https://educasaojoseclaro.blogspot.com/
+Calendário: https://educasaojoseclaro.blogspot.com/p/calendario.html
+Aniversariantes: https://educasaojoseclaro.blogspot.com/p/aniversariantes.html
+Escolas: https://educasaojoseclaro.blogspot.com/p/nossas-escolas.html
+Comunicados: https://educasaojoseclaro.blogspot.com/
+Contatos: https://educasaojoseclaro.blogspot.com/p/contato.html
+
+Observação: Notícias e Comunicados apontam para a página inicial porque esse foi o endereço fornecido. Ajuste depois se houver páginas próprias para cada seção.
